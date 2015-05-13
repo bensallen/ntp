@@ -3,4 +3,7 @@ ntp_pkgs:
   - libselinux-python
   - ntp
 
+ntp_pkg_conflicts:
+  - chrony
+
 ntp_svc_name: ntpd
